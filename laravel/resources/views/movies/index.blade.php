@@ -7,6 +7,8 @@
     <title>Movies DB</title>
 </head>
 <body>
-    
+    @foreach ($movies as $movie)
+         {{$movie->title}}
+    @endforeach
 </body>
 </html>
